@@ -144,8 +144,12 @@ body {
   
   .work img {
     width: 100%;
-    border: 0 none;
+    border: 5px solid gray;
     opacity: 0.8;
+  }
+
+  .img {
+    border-style: 5px;
   }
   
   .work h3 {
@@ -255,3 +259,24 @@ body {
       width: 100%;
     }
   }
+
+  a:link {
+    color:white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(46, 63, 63);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  
