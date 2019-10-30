@@ -276,7 +276,50 @@ body {
   
   /* selected link */
   a:active {
-    color: blue;
+    color: #008080;
   }
 
+  .sidenav {
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 140px;
+    right: 100px;
+    background: white;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+
+  h4 {
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #008080;
+    font-size: 26px;
+  }
   
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #008080;
+    display: block;
+    margin-right: 5px;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+  .main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+ 
