@@ -83,6 +83,7 @@ body {
   nav {
     float: right;
     margin-top: 25px;
+    color: black;
   }
 
   a {
@@ -94,8 +95,8 @@ body {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #999;
-    text-decoration: none;
+    color: black;
+    text-decoration: black;
     border-left: 1px solid #efefef;
   }
   
