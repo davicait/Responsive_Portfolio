@@ -61,7 +61,7 @@ body {
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    color: #fff;
+    color: rgb(38, 35, 35);
     background: #fff;
     border-bottom: 2px solid #ccc;
   }
@@ -83,6 +83,10 @@ body {
   nav {
     float: right;
     margin-top: 25px;
+  }
+
+  a {
+    color: black;
   }
   
   nav a {
